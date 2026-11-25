@@ -6,5 +6,6 @@ import SwiftData
         WindowGroup {
             ContactListView().modelContainer(for: Contact.self)
         }
+        
     }
 }

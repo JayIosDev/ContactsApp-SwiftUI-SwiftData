@@ -20,7 +20,7 @@ struct CustomTextField: View {
             
             TextField(hint, text: $value).padding(.horizontal, 15).padding(.vertical, 12).autocorrectionDisabled(true).background(RoundedRectangle(cornerRadius: 10).stroke(isFocused ? .blue : .gray.opacity(0.5), lineWidth: 1.5)).focused($isFocused)
             
-        }.
+        }
     }
 }
 
